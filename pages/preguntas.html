@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ian Ham (Desafio 5 Clase 11)</title>
+
+    <!-- BOOTSTRAP ICONS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="d-flex flex-column h-100">
+
+
+
+    <main class="flex-shrink-0">
+        <!-- NAVIGATION -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html">Nombre de la Empresa</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                <li>
+                                    <a class="dropdown-item" href="./general-portfolio.html">Portfolio General</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./most-recent-project.html">Proyecto más
+                                        Reciente <span class="badge bg-info">Nuevo</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./preguntas.html">Preguntas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!-- PAGE CONTENT -->
+        <section class="py-5">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h1 class="fw-bolder">Preguntas Frecuentes</h1>
+                    <p class="lead fw-normal text-muted mb-0">¿Cómo podemos ayudarte?</p>
+                </div>
+                <div class="row gx-5">
+                    <div class="col-xl-8">
+                        <!-- ACCORDION 1 -->
+                        <h2 class="fw-bolder mb-3">¿Qué experiencias ofrecemos a nuestros viajeros?</h2>
+                        <div class="accordion mb-5" id="accordionExample">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Atención personalizada las 24 horas</button></h3>
+                                <div class="accordion-collapse collapse" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>Lorem ipsum dolor sit amet consectetur adipisicing.</strong>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis vero libero corrupti, a quas qui nam recusandae blanditiis quam ad repudiandae molestiae provident officiis, soluta, ex expedita. Nisi illum, tempore recusandae laboriosam error repudiandae nihil. Voluptatibus accusamus nostrum neque dolor voluptatem?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Servicios de transporte exclusivos (Incluso al abortar la aventura por incapacidad)</button></h3>
+                                <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, incidunt!</strong>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facilis dolorem, ad tenetur quis id dicta eveniet voluptatem consequatur, minus fugit, officiis aliquam! Impedit veritatis perspiciatis inventore est esse porro, blanditiis optio praesentium ab eius quo, aliquid odit animi placeat.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingThree"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Restaurantes de autor incluidos</button></h3>
+                                <div class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</strong>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minus quis, provident non harum illum maiores, vel beatae quia ea pariatur esse voluptas facilis, dignissimos officia dolore delectus laborum. Officiis, asperiores placeat? Accusantium eos, blanditiis saepe aperiam sunt repellendus. Est iure vitae voluptate ut optio, maxime neque pariatur harum laborum itaque quam fuga dolorem at illum nam doloremque corporis nesciunt asperiores. Placeat laudantium provident sunt repellendus ipsam architecto dolores. Dignissimos?
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- ACCORDION 2 -->
+                        <h2 class="fw-bolder mb-3">Errores con la página</h2>
+                        <div class="accordion mb-5 mb-xl-0" id="accordionExample2">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingOneTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneTwo" aria-expanded="false" aria-controls="collapseOneTwo">No pudiste ponerte en contacto con nosotros desde la sección "Contacto"</button></h3>
+                                <div class="accordion-collapse collapse" id="collapseOneTwo" aria-labelledby="headingOneTwo" data-bs-parent="#accordionExample2">
+                                    <div class="accordion-body">
+                                        <strong>Lorem ipsum dolor sit.</strong>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In rerum ea fuga aliquam aut impedit, aperiam quod, sunt culpa nulla similique pariatur vel et hic, molestias nostrum error!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingTwoTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoTwo" aria-expanded="false" aria-controls="collapseTwoTwo">No pudiste ver nuestro más reciente proyecto</button></h3>
+                                <div class="accordion-collapse collapse" id="collapseTwoTwo" aria-labelledby="headingTwoTwo" data-bs-parent="#accordionExample2">
+                                    <div class="accordion-body">
+                                        <strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci fugiat debitis ipsum voluptas harum fuga?</strong>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, dolore fugiat vitae voluptates hic nam repudiandae libero delectus alias aperiam quisquam exercitationem animi iusto accusantium tempore. Illo numquam, molestias veniam, excepturi vel architecto illum facilis eaque error doloremque voluptates?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingThreeTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeTwo" aria-expanded="false" aria-controls="collapseThreeTwo">Experimentas problemas con tu pago</button></h3>
+                                <div class="accordion-collapse collapse" id="collapseThreeTwo" aria-labelledby="headingThreeTwo" data-bs-parent="#accordionExample2">
+                                    <div class="accordion-body">
+                                        <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere?.</strong>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolor tenetur autem excepturi! Voluptates fuga hic eum sunt suscipit ipsa labore eius facere magni magnam. Veniam, blanditiis minus. Perspiciatis, nemo a exercitationem laborum eos quaerat vel ipsum saepe cum doloribus placeat ipsa cupiditate excepturi nulla ab dolores praesentium numquam at nesciunt quae architecto! Asperiores amet voluptate aut veritatis velit tenetur quam temporibus voluptatum consectetur, dolore iste eos corporis nostrum, praesentium, quas aspernatur deleniti veniam quis! Sapiente officiis perspiciatis aliquid quo.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="card border-0 bg-light mt-xl-5">
+                            <div class="card-body p-4 py-lg-5">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <div class="text-center">
+                                        <div class="h6 fw-bolder">¿Tienes más preguntas?</div>
+                                        <div class="h6 fw-bolder">¿No aparecen en esta sección?</div>
+                                        <p class="text-muted mb-4">
+                                            Contáctanos en
+                                            <br />
+                                            <a href="#">support@NombreDeLaEmpresa.com</a>
+                                        </p>
+                                        <div class="h6 fw-bolder">Síguenos en:</div>
+                                        <a class="fs-5 px-2 link-dark" href="#"><i class="bi-twitter"></i></a>
+                                        <a class="fs-5 px-2 link-dark" href="#"><i class="bi-facebook"></i></a>
+                                        <a class="fs-5 px-2 link-dark" href="#"><i class="bi-instagram"></i></a>
+                                        <a class="fs-5 px-2 link-dark" href="#"><i class="bi-linkedin"></i></a>
+                                        <a class="fs-5 px-2 link-dark" href="#"><i class="bi-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+    <footer class="bg-dark py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto">
+                    <div class="small m-0 text-white">Copyright &copy; Nombre de la Empresa 2022</div>
+                </div>
+                <div class="col-auto">
+                    <a class="link-light small" href="#!">Privacy</a>
+                    <span class="text-white mx-1">&middot;</span>
+                    <a class="link-light small" href="#!">Terms</a>
+                    <span class="text-white mx-1">&middot;</span>
+                    <a class="link-light small" href="#!">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

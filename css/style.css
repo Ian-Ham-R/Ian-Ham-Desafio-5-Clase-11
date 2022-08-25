@@ -1,0 +1,8 @@
+/* 
+contactanos
+<!-- MESSAGE INPUT -->
+<div class="form-floating mb-3">
+    <textarea class="form-control" id="message" type="text" placeholder="Ingresa tu mensaje" style="height: 10rem"></textarea>
+    <label for="message">Mensaje</label>
+</div>
+*/
